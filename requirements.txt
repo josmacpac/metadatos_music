@@ -1,0 +1,12 @@
+# Dependencias de tagmusic
+#
+# FLAC: no hace falta nada de Python, solo el binario metaflac
+#       (paquete "flac" del sistema).
+# MP3:  necesita mutagen. Instalación:
+#
+#   pip install -r requirements.txt
+#   # Arch/Manjaro:    sudo pacman -S python-mutagen
+#   # Debian/Ubuntu:   sudo apt install python3-mutagen
+#
+# Si no vas a usar MP3 puedes ignorar este archivo.
+mutagen>=1.45,<2
